@@ -1,0 +1,171 @@
+@keyframes example {
+    from {background-image: url(../img/katniss1.png);}
+    to {background-image: url(../img/katniss1.png);}
+}
+body {
+    background-image: url(../img/katniss1.png);
+    background-color: #bae2ec;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: example;
+    animation-duration:6s;
+    animation-timing-function: ease-in-out;
+    /*animation-iteration-count: infinite;*/
+    animation-fill-mode: forwards;
+}
+.logo {
+    height: 30px;
+}
+.logo a img{
+    height: 100px;
+    width: 250px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-bottom: 20x;
+    padding-bottom: 20px;
+    padding-top: 0px;
+}
+#mid{
+    height: 380px;
+}
+@keyframes dis {
+    10%{background-image: url(../img/flash/f1.jpg);}
+    25%{background-image: url(../img/flash/f2.jpg);}
+    60%{background-image: url(../img/flash/f3.jpg);}
+    55%{background-image: url(../img/flash/f4.jpg);}
+    75%{background-image: url(../img/flash/f5.jpg);}
+}
+#mid #flas{
+    background-image: url(../img/flash/f3.jpg);
+    height: 330px;
+    width: 470px;
+    border-top: solid;
+    border-bottom: solid;
+    margin-top: 50px;
+    border-radius: 50px;
+    animation-name: dis;
+    animation-duration:15s;
+    animation-delay: 6s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+#mid #flas a h1{
+     display: block;
+     text-align: center;
+     padding: 10px;
+     margin: 10px;
+     opacity: -5;
+
+}
+#mid #flas a h1:hover{
+
+     text-decoration: none;
+     text-decoration-line: none;     
+     color:black;
+     text-shadow: 2px 2px red;
+     padding: 10px; 
+     margin: 10px;
+     text-align: center;
+     border-radius: 50px;
+     height: 280px;
+     opacity: 1;
+
+
+}
+/*#ai img{
+    height: 50px
+    width:50px;
+}
+/*#ai h1{
+    /*text-align: center;
+    text-shadow: 5px 1px #c14421;
+
+    height: 50px;
+    padding: 10px;
+    color: white;
+    margin: 5px;
+    letter-spacing: 20px;
+    background-color:#c2beaf;
+    border-radius: 50px;*/
+}
+#home{
+    height: 200px;
+}
+#head {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+   /* background-color:#3f7591;*/
+    border-radius: 20px;
+    margin-bottom: 5px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 3px ;
+    border-color: #fff; 
+
+}
+
+#head li{
+    float: left;  
+}
+
+#head li a {
+    display: inline-block;
+    color: #3f7591;
+    text-shadow: 2px 2px white;
+    letter-spacing: 8px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 70px;
+    border-radius: 1px;
+    font-family: courier new;
+    font-size: 25px;
+    text-decoration:none;
+    overflow: hidden;
+}
+#head a:hover {
+    border-style: dotted;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 80px;
+    overflow: hidden;
+}
+#s {
+    height: 1px;
+
+}
+.icons{
+    height: 100px;
+    padding: 10px;
+    margin:0px;
+}
+.icons a h4{
+    color: black;
+    font-family: courier new;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;   
+}
+.icons ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+   
+    overflow: auto;
+    opacity: 0.5;
+}
+.icons ul li:hover{
+    list-style-type:none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 50px;
+ 
+    overflow: auto;
+    opacity: 1;
+}
+.active{
+    background-color: pink;
+}

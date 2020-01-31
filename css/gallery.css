@@ -1,0 +1,111 @@
+ #head li a, .wbutton {
+    display: block;
+/*    color: white;*/
+    color: #3f7591;
+    text-shadow: 2px 2px white;
+    letter-spacing: 8px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 70px;
+    border-radius: 1px;
+    font-family: courier new;
+    font-size: 25px;
+    text-decoration:none;
+    overflow: hidden;
+    /*text-align:left;*/
+    /*padding: 10px 10px;*/
+    text-decoration: none;
+}
+
+ li a:hover, .wdown:hover .wbutton {
+    color: #3f7591;
+    text-shadow: 2px 2px white;
+    letter-spacing: 8px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 70px;
+    border-radius: 1px;
+    font-family: courier new;
+    font-size: 25px;
+    text-decoration:none;
+    overflow: hidden;
+/*    border-style: solid;
+    border-radius: 20px;
+    background-color:#12765b;
+    padding: 1px 10px 1px 20px;*/
+    margin: 0px;
+   /* border-width: 1px;*/
+    display: block;
+    
+
+}
+ li{
+	display: inline-block;
+
+
+}
+.wcontent {
+    display: none;
+    background-color:pink;
+    position: absolute;
+    /*order-width: 1px;*/
+  /*  width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;*/
+  
+}
+
+.wcontent a {
+ /*   margin: 5px;
+    padding: 5px;
+    border-radius: 80px;
+    color: white;*/
+ /*   padding: 10px 10px;*/
+    /*border-width: 1px;*/
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 25px;
+}
+
+.wcontent a:hover {border-style: none; 
+   /* background-color: #4d483f;*/}
+
+.wdown:hover .wcontent {
+    display: block;
+}
+
+.c-container div{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+.c-container img{
+    margin-left: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+@media only screen and (min-width: 360px) {
+
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    }
+    .c-container img{
+    margin-left: 0 auto;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    width: 150px;
+    height: 150px;}
+
+}
